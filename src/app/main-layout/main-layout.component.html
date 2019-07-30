@@ -1,0 +1,19 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<mat-sidenav-container class="example-container" *ngIf="shouldRun">
+    <mat-sidenav opened mode="side">Start content</mat-sidenav>
+    <mat-sidenav opened mode="side" position="end">End content</mat-sidenav>
+    Implicit main content
+    
+</mat-sidenav-container>
+
+<app-main-horizontal-search></app-main-horizontal-search>
+<app-main-horizontal-menu></app-main-horizontal-menu>
+
+  <div *ngIf="!shouldRun">
+    Please open on Stackblitz to see result
+    <mat-slider step="4" tickInterval="3"></mat-slider>
+  </div>
+
+  <mat-checkbox>Check me!</mat-checkbox>
+  <mat-slider step="4" tickInterval="3"></mat-slider>
+  <router-outlet></router-outlet>
