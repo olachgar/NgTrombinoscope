@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -7,17 +8,11 @@ import { AppComponent } from './app.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatButtonModule} from '@angular/material/button';
-import {MatCheckboxModule} from '@angular/material/checkbox';
-import {MatSlideToggleModule} from '@angular/material/slide-toggle';
-import {MatSidenavModule} from '@angular/material/sidenav';
-import {MatSliderModule} from '@angular/material/slider';
-import {MatMenuModule} from '@angular/material/menu';
-import {MatInputModule} from '@angular/material/input';
 
 import {MainHorizontalSearchComponent} from './main-layout/main-horizontal-search/main-horizontal-search.component';
 import {MainLayoutComponent} from './main-layout/main-layout.component';
 import {MainHorizontalMenuComponent} from './main-layout/main-horizontal-menu/main-horizontal-menu.component';
+import { MaterialModule } from './material/material.module';
 
 @NgModule({
   declarations: [
@@ -31,13 +26,9 @@ import {MainHorizontalMenuComponent} from './main-layout/main-horizontal-menu/ma
     AppRoutingModule, 
     BrowserAnimationsModule,
     FlexLayoutModule,
-    MatButtonModule, 
-    MatCheckboxModule, 
-    MatSlideToggleModule,
-    MatSidenavModule, 
-    MatSliderModule, 
-    MatMenuModule, 
-    MatInputModule
+    FormsModule,
+    ReactiveFormsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
