@@ -1,4 +1,5 @@
 # Trombinoscope
+[![Build status](https://dev.azure.com/lachgar/NgTrombinoscope/_apis/build/status/NgTrombinoscope-Node.js%20With%20Grunt-CI)](https://dev.azure.com/lachgar/NgTrombinoscope/_build/latest?definitionId=13)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.3.
 
