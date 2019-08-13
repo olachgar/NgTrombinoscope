@@ -20,7 +20,6 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
-import { DashboardComponent } from './main-layout/dashboard/dashboard.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
@@ -29,6 +28,15 @@ import { TableComponent } from './main-layout/table/table.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { Card01Component } from './Tests/card01/card01.component';
+
+import { DashboardComponent } from './modules/main/components/dashboard/dashboard.component';
+import { ScheduleComponent } from './modules/main/components/schedule/schedule.component';
+import { PeopleComponent } from './modules/main/components/people/people.component';
+import { AboutComponent } from './modules/main/components/about/about.component';
+import { SettingsComponent } from './modules/main/components/settings/settings.component';
+import { ReportbugComponent } from './modules/main/components/reportbug/reportbug.component';
+
 
 @NgModule({
   declarations: [
@@ -37,13 +45,19 @@ import { MatSortModule } from '@angular/material/sort';
     MainHorizontalMenuComponent,
     MainHorizontalSearchComponent,
     MaterielNavComponent,
-    DashboardComponent,
     NavigationComponent,
-    TableComponent
+    TableComponent,
+    Card01Component,
+    DashboardComponent,
+    ScheduleComponent,
+    PeopleComponent,
+    AboutComponent,
+    SettingsComponent,
+    ReportbugComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule, 
+    AppRoutingModule,
     BrowserAnimationsModule,
     FlexLayoutModule,
     FormsModule,
