@@ -13,7 +13,10 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
-
+import {MatDividerModule} from '@angular/material/divider';
+import {MatBadgeModule} from '@angular/material/badge';
+import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 const MaterialComponents = [
   MatButtonModule,
@@ -28,7 +31,11 @@ const MaterialComponents = [
   MatSelectModule,
   MatIconModule,
   MatToolbarModule,
-  MatProgressSpinnerModule
+  MatProgressSpinnerModule,
+  MatDividerModule,
+  MatBadgeModule,
+  MatFormFieldModule,
+  MatTooltipModule
 ];
 
 @NgModule({

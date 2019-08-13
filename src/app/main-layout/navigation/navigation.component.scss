@@ -15,3 +15,12 @@
   top: 0;
   z-index: 1;
 }
+
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url('https://media.licdn.com/dms/image/C5603AQH8J_uKgU6xvw/profile-displayphoto-shrink_200_200/0?e=1570665600&v=beta&t=_yXiCBJHW9NqoGcq7zR358SpOrPbdKN1TU9QOsQst3Q');
+  background-size: cover;
+}
